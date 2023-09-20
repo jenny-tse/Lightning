@@ -6,8 +6,9 @@ int opacity=20;
 int r = 0;
 int g = 0;
 int b = 0;
+background(0,0,0);
 void setup(){
-  background(0,0,0,10);
+  background(0,0,0);
   size(400,400);
   frameRate(140);
   stroke(204,238,255);
